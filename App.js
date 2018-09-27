@@ -19,4 +19,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-> git push -u origin master
+
