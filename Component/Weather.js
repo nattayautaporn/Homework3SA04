@@ -1,8 +1,7 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import {styleSheet, Text,View,ImageBackground}from'react-native';
+import { StyleSheet, Text, View ,ImageBackground} from 'react-native';
+import Forecast from './Forecast';
 
-export default class Weather extends React.Component {
   export default class Weather extends React.Component {
     constructor(props) {
     super(props);
@@ -24,6 +23,8 @@ render() {
   );
   }
  }
+
+
  const styles = StyleSheet.create({
   container: { paddingTop: 25 },
   backdrop: { width: '100%', height: '100%'},
